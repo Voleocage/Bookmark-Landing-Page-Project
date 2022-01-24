@@ -19,7 +19,7 @@
                 <li class="cursor-pointer hover:underline"><a href="#">Features</a></li>
                 <li class="cursor-pointer hover:underline"><a href="#">Pricing</a></li>
                 <li class="cursor-pointer hover:underline"><a href="#">Contact</a></li>
-                <button type="button" class="bg-bookmark-red text-white rounded-full px-7 py-3 uppercase font-bold  hover:bg-red-600 transition duration-200"><a href="#">Log in</a></button>
+                <button type="button" class="bg-bookmark-red text-white rounded-full px-7 py-3 uppercase font-bold  hover:bg-red-500 transition duration-200"><a href="#">Log in</a></button>
             </ul>
             <div class="flex sm:hidden flex-1 justify-end text-xl">
                 <i class="fa-solid fa-bars"></i>
@@ -82,7 +82,7 @@
                 <!-- Content -->
                 <div class="flex flex-1 flex-col items-center lg:items-start md:mt-24">
                     <h1 class="text-4xl text-bookmark-blue font-bold text-center">Intelligent Search</h1>
-                    <p class="text-gray-500 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Our Powerful search feature will help you find saved site sin no time. No need to crawl through all of your bookmarks.</p>
+                    <p class="text-gray-500 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Our Powerful search feature will help you find saved sites in no time. No need to crawl through all of your bookmarks.</p>
                     <button class="btn btn-purp gap-x-2 flex hover:bg-blue-900"><a href="#">More Info</a></button>
                 </div>
             </div>
@@ -116,9 +116,9 @@
             <p class="text-center text-gray-500 font-medium mt-4">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like for us to prioritize.</p>
         </div>
         <!-- Cards -->
-        <div class="container grid grid-cols-1  lg:grid-cols-3 gap-y-16 gap-x-16 max-w-screen-lg mt-16">
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-16 max-w-screen-lg mt-16">
             <!-- Card #1 -->
-            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-200 lg:hover:scale-110 hover:bg-bookmark-blue">
+            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-200 lg:hover:scale-110">
                 <div class="p-6 flex flex-col items-center">
                     <img src="/images/logo-chrome.svg" alt="" class="pointer-events-none">
                     <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Chrome</h3>
@@ -131,7 +131,7 @@
             </div>
 
             <!-- Card #2 -->
-            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-300 lg:hover:scale-110 hover:bg-bookmark-blue hover:text-white">
+            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-300 lg:hover:scale-110">
                 <div class="p-6 flex flex-col items-center">
                     <img src="/images/logo-firefox.svg" alt="" class="pointer-events-none">
                     <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Firefox</h3>
@@ -144,7 +144,7 @@
             </div>
 
             <!-- Card #3 -->
-            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-300 lg:hover:scale-110 hover:bg-bookmark-blue hover:text-white">
+            <div class="flex flex-col rounded-3xl shadow-2xl items-center transition duration-300 lg:hover:scale-110 ">
                 <div class="p-6 flex flex-col items-center">
                     <img src="/images/logo-opera.svg" alt="" class="pointer-events-none">
                     <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Opera</h3>
@@ -159,6 +159,72 @@
     </section>
 
     <!-- FAQ -->
+    <section class="py-20">
+        <div class="container">
+            <!-- Heading -->
+            <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+                <h2 class="text-4xl text-center text-bookmark-blue font-bold">Frequently Asked Questions</h2>
+                <p class="text-center text-gray-500 font-medium mt-4">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+            </div>
+            <!-- FAQ Items -->
+            <div class="flex flex-col sm:w-3/4 lg:5/12 mt-12 mx-auto">
+                <!-- Item #1 -->
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">What is a Bookmark?</span>
+                    <i class="fa-solid fa-chevron-down text-bookmark-purple"></i>
+                </div>
+                <!-- Item #2 -->
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">How can I request a new browser?</span>
+                    <i class="fa-solid fa-chevron-down text-bookmark-purple"></i>
+                </div>
+                <!-- Item #3 -->
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">Is there a mobile app?</span>
+                    <i class="fa-solid fa-chevron-down text-bookmark-purple"></i>
+                </div>
+                <!-- Item #4 -->
+                <div class="flex items-center border-b py-4">
+                    <span class="flex-1">What about other Chromium browsers?</span>
+                    <i class="fa-solid fa-chevron-down text-bookmark-purple"></i>
+                </div>
+                <button class="flex self-center btn btn-purp hover:bg-blue-900 mt-12"><a href="#"><a href="#" class="text-center">More Info</a></button>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="bg-bookmark-purple text-bookmark-white py-20">
+        <div class="container">
+            <!-- Content -->
+            <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+                <p class="font-light uppercase text-center mb-8">35,000+ have already joined</p>
+                <h1 class="text-3xl text-center">Stay up-to-date with what we are doing</h1>
+                <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                    <input type="email" placeholder="Enter your email address" class="shadow-2xl focus:outline-none flex-1 px-2 py-3 rounded-3xl text-black">
+                    <button class="btn bg-bookmark-red gap-x-2 flex hover:bg-red-500 self-center text-center"><a href="#">Contact Us</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-bookmark-blue py-8">
+        <div class="container flex flex-col md:flex-row items-center">
+            <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+                <img src="/images/logo-bookmark-white.png" alt="" class="pointer-events-none">
+                <ul class="flex text-white uppercase gap-12 text-xs">
+                    <li class="cursor-pointer hover:underline"><a href="#">Features</a></li>
+                    <li class="cursor-pointer hover:underline"><a href="#">Pricing</a></li>
+                    <li class="cursor-pointer hover:underline"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex gap-10 mt-12 md:mt-0">
+                    <a href="#"><i class="fa-brands fa-twitter text-white text-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook text-white text-2xl"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 <!-- npx tailwindcss -i ./src/input.css -o ./output.css --watch -->
